@@ -6,10 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>Document</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <title>BestShop</title>
 </head>
 <body>
+    <header class="header">
+        <span class="header-logotype">
+            BestShop
+        </span>
+        <nav class="header-navbar">
+            <ul class="header-navbar__list">
+                <li>Why us</li>
+                <li>benefits</li>
+                <li>prices</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+
     
+
+    <section class="section section--why-us">
+        <article class="welcome-block">
+            <div class="welcome-block__title">
+                <h1>Sell More!</h1>
+                <p>
+                    Open on our platform and increase your sales
+                </p>
+                <a href="#">Open your shop</a>
+            </div>
+            <div class="welcome-block__statistics">
+
+            </div>
+        </article>
+    </section>
+
+
+
+    <section class="section section--benefits">
+        <div class="benefits-container"> 
+            <article class="benefit benefit--wide">
+                <div class="benefit__text">
+
+                </div>
+
+                <img class="wide-benefit__img">
+            </article>
+            
+
+            <article class="benefit benefit--wide">
+                <div class="benefit__text">
+
+                </div>
+
+                <img class="wide-benefit__img">
+            </article>
+
+            <div class="img-short-benefit">
+                <article class="benefit benefit--short benefit__text">
+    
+                </article>
+                <img src="/images/Trumpet.png" class="benefit-img--">
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--pricing">
+        <h2>Pricing</h2>
+        <article class="pricing-container">
+            <div class="pricing-block pricing--basic">
+                <p>Basic</p>
+                <span class="price price--basic">$0</span>
+    
+                <ul class="pricing__list">
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--excluded"></li>
+                    <li class="list-item--excluded"></li>
+                </ul>
+                <a href="#" class="link pricing-link pricing-link--basic">Begin</a>
+            </div>
+    
+            <div class="pricing-block pricing-list--pro">
+                <p>Professional</p>
+                <span class="price price--pro">$25</span>
+                <!-- ::after limited offer -->
+    
+                <ul class="pricing__list">
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--excluded"></li>
+                </ul>
+                <a href="#" class="link pricing-link pricing-link--pro">Begin</a>
+            </div>
+
+            <div class="pricing-block pricing-list--prem">
+                <p>Premium</p>
+                <span class="price price--prem">$60</span>
+                <!-- ::after limited offer -->
+    
+                <ul class="pricing__list">
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                    <li class="list-item--included"></li>
+                </ul>
+                <a href="#" class="link pricing-link pricing-link--prem">Begin</a>
+            </div>
+        </article> 
+
+        <article class="contact-block">
+            <div class="contact-info">
+                <h3>Any questions</h3>
+                <p>Leave your email address or call us!</p>
+
+                <div class="contact-info-container">
+                    <img src="" class="icon--contact"> 
+                    <span class="contact-info__text">info@bestshop.xyz</span>
+                    <img src="" class="icon--contact"> 
+                    <span class="contact-info__text">123 456 789</span>
+                </div>
+            </div>
+
+            <form class="contact__form">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="contact-form-input">
+                <label for="email">Email</label>
+                <input type="text" name="email" class="contact-form-input">
+                
+                <label class="form__checkbox">
+                    <input type="checkbox" class="form__checkbox">
+                    <span></span>
+                    I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                </label>
+            
+                <a href="#" class="link form-link">Send</a>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container footer-container--wide">
+            <span class="header-logotype">
+                BestShop
+            </span>
+        </div>
+
+        <div class="footer-container footer-container--short">
+            <img src="" class="icon--socials">
+            <img src="" class="icon--socials">
+        </div>
+    </footer>
 </body>
 </html>
