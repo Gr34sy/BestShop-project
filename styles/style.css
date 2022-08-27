@@ -130,3 +130,255 @@ a{
     padding: 1.375rem  9.8125rem;
 }
 
+.background-img{
+    width: 100%;
+}
+
+.section--stats{
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.article-title{
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-black-1);
+}
+
+.section--benefits{
+    gap: 100px;
+}
+
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap: 11.5rem;
+    max-width: 800px;
+}
+
+.single-stat{
+    max-width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: var(--font-raleway);
+}
+
+.stat__circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+
+.stat__icon{
+    position: absolute;
+}
+
+.stat__number{
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.1875rem;
+}
+
+.stat__description{
+    color: var(--color-grey);
+    font-size: 1rem;
+}
+
+.single-stat:nth-child(1) .stat__circle{
+    background-color: var(--color-red-1);
+}
+   
+.single-stat:nth-child(2) .stat__circle{
+    background-color: var(--color-blue-1);
+}
+
+.single-stat:nth-child(3) .stat__circle{
+    background-color: var(--color-green-1);
+}
+
+.single-stat:nth-child(1) .stat__icon{
+    top: 0;
+    left: 45%;
+  }
+  
+  .single-stat:nth-child(2) .stat__icon{
+    top: 14px;
+    left: 47%;
+  }
+
+.single-stat:nth-child(3) .stat__icon {
+    top: 6px;
+    left: 50%;
+  }
+
+  .section--benefits{
+    width: 100vw;
+    background-color: var(--color-white-2);
+    padding: 6% 20%;
+  }
+
+  .benefits-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3125rem;
+  }
+
+  .benefit--macbook{
+    --accent-color: var(--color-red-1);   
+  }
+
+  .benefit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white-1);
+    color: var(--color-black-1);
+    font-weight: 400;
+    text-align: left;
+    gap: 6rem;
+    max-height: 370px;
+  }
+
+  .benefit__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+  }
+
+  .benfit__text--1{
+    padding: 91px 0 91px 35px;
+  }
+
+  .benefit__title{
+    font-family: var(--font-raleway);
+    font-size: 2rem;
+  }
+
+  .benefit__description{
+    font-family: var(--font-open-sans);
+    font-size: 1rem;
+  }
+
+
+.benefit__decoration::after{
+    margin-top: 1.25rem;
+    content: '';
+    display: block;
+    width: 80%;
+    height: 0.25rem;
+}
+
+.benefit__decoration--red::after{
+    background-color: var(--color-red-1);
+}
+
+
+.benefit__img{
+    position: relative;
+}
+
+.benefit__img img{
+    position: relative;
+    z-index: 2;
+}
+
+.benefit--iphone .benefit__text{
+    padding: 0 30px 0 90px;
+}
+
+.benefit--macbook .benefit__text{
+    padding: 0 60px 0 80px;
+}
+
+.benefit--macbook .benefit__img{
+    margin: 113px 117px 38px 0;
+}
+
+.benefit--macbook .benefit__img::before {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-color: var(--accent-color);
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    transform: rotate(45deg);
+}
+
+.benefit--macbook .benefit__img img {
+    width: 386px;
+    height: auto;
+}
+
+.benefit--iphone .benefit__img{
+    margin: 29px 0 13px 70px;
+}
+
+.benefit--iphone .benefit__img img{
+    width: 426px;
+    height: auto;
+}
+
+.benefit--iphone .benefit__img::before {
+    content: "";
+    width: 320px;
+    height: 320px;
+    background-color: var(--color-blue-2);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+
+.benefit__decoration--blue::after{
+    background-color: var(--color-blue-1);
+}
+
+.trumpet-benefit-container{
+    display: flex;
+    justify-items: space-between;
+    width: 100%;
+    max-height: 370px;
+    gap: 60px;
+}
+
+.benefit--small{
+    min-height: 370px;
+    align-self: flex-start;
+}
+
+.benefit--small .benefit__text{
+    padding: 60px 35px;
+}
+
+.benefit__decoration--green::after{
+    background-color: var(--color-green-1);
+    padding: 0;
+}
+
+.benefit-trumpet{
+    min-width: 440px;
+    height: 370px;
+    background-color: var(--color-green-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-trumpet img{
+    min-width: 295.73px;
+    height: 207.72px;
+}
