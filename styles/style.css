@@ -54,7 +54,7 @@ a{
     text-align: left;
 }
 
-.logotype, .nav__link{
+.logotype{
     padding: 1rem;
 }
 
@@ -66,16 +66,13 @@ a{
     display: flex;
     list-style: none;
     text-transform: uppercase;
-    gap: 5.9375rem;
-}
-
-.nav__element{
-    padding: 0 1.625rem;
+    gap: 3rem;
 }
 
 .nav__link{
+    padding: 1rem 0;
     font-family: var(--font-open-sans);
-    font-size: 0,6875rem;
+    font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.205rem;
     color: var(--color-gray-1);
@@ -381,4 +378,138 @@ a{
 .benefit-trumpet img{
     min-width: 295.73px;
     height: 207.72px;
+}
+
+
+.pricing-container{
+    display: flex;
+    gap: 3.75rem;
+}
+
+.pricing-block{
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--font);
+    padding: 2.3rem 8rem;
+    position: relative;
+}
+
+.pricing-block--secondary{
+    min-height: 520px;
+    align-self: center;
+}
+
+.pricing-block--secondary:first-child{
+    border-color: var(--color-red-1);
+}
+
+.pricing-block--secondary:last-child{
+    border-color: var(--color-green-1);
+}
+
+.pricing-block--primary{
+    min-height: 550px;
+    border: 1px solid var(--color-blue-2);
+    box-shadow: 5px 10px 27px var(--color-blue-opacity-1);
+}
+
+.pricing-block p{
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.price{
+    margin-top: 0.875rem;
+    font-family: var(--font-open-sans);
+    font-weight: 300;
+    font-size: 2.875rem;
+}
+
+.price--basic{
+    color: var(--color-red-1);
+}
+.price--pro{
+    color: var(--color-blue-2);
+}
+
+.price--prem {
+    color: var(--color-green-1);
+}
+
+
+
+.price--limited::after{
+    margin-top: 0.8rem;
+    content: 'limited offer';
+    text-transform: uppercase;
+    display: block;
+    font-family: var(--font-raleway);
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: var(--color-black-2);
+    text-align: left;
+}
+
+.price--nonlimited::after{
+    margin-top: 0.8rem;
+    content: '';
+    display: block;
+    height: 0.6rem;
+}
+
+.pricing__list{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--color-black-1);
+}
+
+.list-item::before{
+    content: '';
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.list-item--included::before{
+    background-image: url('/images/included-icon.svg'); 
+}
+
+.list-item--excluded::before{
+    background-image: url('/images/excluded-icon.svg'); 
+}
+
+.pricing-link{
+    position: absolute;
+    bottom: 0;
+    transform: translate(0,50%);
+    border-radius: 1000px;
+}
+
+.pricing-link--secondary{
+    padding: 1rem  3.5rem;
+}
+
+.pricing-link--primary{
+    padding: 1rem  4rem;
+}
+
+.pricing-link--basic{
+    background-color: var(--color-red-1);
+}
+
+.pricing-link--prem{
+    background-color: var(--color-green-1);
 }
