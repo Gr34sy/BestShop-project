@@ -76,6 +76,7 @@ a{
     letter-spacing: 0.205rem;
     color: var(--color-gray-1);
     border-bottom: 4px solid transparent;
+    transition: 1s;
 }
 
 .nav__link:hover{
@@ -580,10 +581,11 @@ a{
     font-size: 2rem;
 }
 
-/* .form__input:focus-visible{
+.form__input:active, .form__input:focus{
+    outline: none;
     border: none;
-    border-top: 1px solid var(--color-gray-opacity-1);
-} */
+    border: 1px solid var(--color-gray-opacity-1);
+}
 
 label[for="email"]{
     margin-top: 2rem;
