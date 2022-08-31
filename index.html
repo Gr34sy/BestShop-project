@@ -145,7 +145,7 @@
             <div class="pricing-block pricing-block--primary">
                 <p>Professional</p>
                 <span class="price price--pro price--limited">$25</span>
-                <!-- ::after limited offer -->
+              
     
                 <ul class="pricing__list">
                     <li class="list-item list-item--included">500 MB HDD</li>
@@ -160,7 +160,7 @@
             <div class="pricing-block pricing-block--secondary">
                 <p>Premium</p>
                 <span class="price price--prem price--limited">$60</span>
-                <!-- ::after limited offer -->
+               
     
                 <ul class="pricing__list">
                     <li class="list-item list-item--included">2 GB HDD</li>
@@ -173,46 +173,66 @@
             </div>
         </article> 
     </section>
-    
+
     <section class="section section--contact">
-        <article class="contact-info">
-            <h3>Any questions</h3>
-            <p>Leave your email address or call us!</p>
+        <div class="contact__container">
+            <article class="contact-info">
+                <h3 class="info__title">
+                    Any questions?
+                </h3>
+                <p class="info__description">
+                    Leave your email address or call us!
+                </p>
+                <div class="mail-links">
+                    <a href="mailto:info@bestshop.xyz" class="info__link">
+                        <img src="/images/Mail Icon.svg">
+                        info@bestshop.xyz
+                    </a>
 
-            <div class="contact-info-container">
-                <img src="" class="icon--contact"> 
-                <span class="contact-info__text">info@bestshop.xyz</span>
-                <img src="" class="icon--contact"> 
-                <span class="contact-info__text">123 456 789</span>
-            </div>
-        </article>
+                    <a href="tel:123456789" class="info__link">
+                        <img src="/images/Phone Icon.svg">
+                        123 456 789
+                    </a>
+                </div>
+            </article>
 
-        <form class="contact__form">
-            <label for="name">Name</label>
-            <input type="text" name="name" class="contact-form-input">
-            <label for="email">Email</label>
-            <input type="text" name="email" class="contact-form-input">
-            
-            <label class="form__checkbox">
-                <input type="checkbox" class="form__checkbox">
-                <span></span>
-                I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
-            </label>
-        
-            <a href="#" class="link form-link">Send</a>
-        </form>
+            <form class="contact-form">
+                <label for="name" class="form__label">Name</label>
+                <input type="text" name="name" class="form__input">
+                <label for="email" class="form__label">Email</label>
+                <input type="text" name="email" class="form__input">
+
+                <label class="personal-data">
+                    <input type="checkbox" class="data-checkbox">
+                    <p>
+                        I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                    </p>
+                </label>
+                <a href="#" class="link form__link">Send</a>
+            </form>
+        </div>
     </section>
+    
+
 
     <footer class="footer">
-        <div class="footer-container footer-container--wide">
+        <div class="footer-left">
             <span class="logotype logotype--footer">
                 BestShop
             </span>
+            <p>
+                © 2019 BestShop LTD, All Rights Reserved
+            </p>
         </div>
 
-        <div class="footer-container footer-container--short">
-            <a href="https://pl-pl.facebook.com"><img src="" class="icon--socials"></a>
-            <a href="https://twitter.com"><img src="" class="icon--socials"></a>
+        <div class="footer-right">
+            <a href="https://twitter.com">
+                <img src="/images/Twitter.svg" class="icon--socials">
+            </a>
+
+            <a href="https://pl-pl.facebook.com">
+                <img src="/images/Facebook.svg" class="icon--socials">
+            </a>
         </div>
     </footer>
 </body>
