@@ -14,7 +14,7 @@
 
     @media (max-width: 650px){
         flex-direction: column;
-        gap: 4rem;
+        gap: 2rem;
     }
 }
 
@@ -44,6 +44,10 @@
     font-size: 1.25rem;
     font-weight: 800;
     letter-spacing: 0.1875rem;
+
+    @media (max-width: 650px){
+        font-size: 2rem;
+    }
 }
 
 .stat__description{

@@ -214,7 +214,7 @@ a {
 @media (max-width: 650px) {
   .stats-container {
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
   }
 }
 
@@ -244,6 +244,12 @@ a {
   letter-spacing: .1875rem;
   font-size: 1.25rem;
   font-weight: 800;
+}
+
+@media (max-width: 650px) {
+  .stat__number {
+    font-size: 2rem;
+  }
 }
 
 .stat__description {
@@ -449,6 +455,12 @@ a {
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .pricing-container {
+    margin-top: 20px;
+  }
+}
+
 .pricing-block {
   text-align: center;
   font-family: var(--font);
@@ -463,9 +475,37 @@ a {
   position: relative;
 }
 
+@media (max-width: 650px) {
+  .pricing-block {
+    width: 95%;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 0;
+    padding: 0 3rem;
+  }
+}
+
+.pricing-text {
+  flex-direction: column;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .pricing-text {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .pricing-block--secondary {
   min-height: 520px;
   align-self: center;
+}
+
+@media (max-width: 650px) {
+  .pricing-block--secondary {
+    min-height: 300px;
+  }
 }
 
 .pricing-block--secondary:first-child {
@@ -482,10 +522,22 @@ a {
   box-shadow: 5px 10px 27px var(--color-blue-opacity-1);
 }
 
+@media (max-width: 650px) {
+  .pricing-block--primary {
+    min-height: 320px;
+  }
+}
+
 .pricing-block p {
   font-family: var(--font-raleway);
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .pricing-block p {
+    font-size: 1rem;
+  }
 }
 
 .price {
@@ -519,11 +571,23 @@ a {
   display: block;
 }
 
+@media (max-width: 650px) {
+  .price--limited:after {
+    font-size: .8rem;
+  }
+}
+
 .price--nonlimited:after {
   content: "";
   height: .6rem;
   margin-top: .8rem;
   display: block;
+}
+
+@media (max-width: 650px) {
+  .price--nonlimited:after {
+    height: .8rem;
+  }
 }
 
 .pricing__list {
@@ -535,6 +599,14 @@ a {
   font-size: .9rem;
   font-weight: 400;
   display: flex;
+}
+
+@media (max-width: 650px) {
+  .pricing__list {
+    text-align: left;
+    gap: 1rem;
+    font-size: .8rem;
+  }
 }
 
 .list-item:before {
@@ -703,6 +775,12 @@ label[for="email"] {
   position: absolute;
   bottom: 0;
   transform: translate(0, 50%);
+}
+
+@media (max-width: 650px) {
+  .pricing-link {
+    transform: translate(50px, 50%);
+  }
 }
 
 .pricing-link--secondary {
