@@ -477,11 +477,10 @@ a {
 
 @media (max-width: 650px) {
   .pricing-block {
-    width: 95%;
     flex-direction: row;
-    gap: 2rem;
+    gap: 2.5rem;
     margin-top: 0;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 }
 
@@ -505,6 +504,7 @@ a {
 @media (max-width: 650px) {
   .pricing-block--secondary {
     min-height: 300px;
+    width: 85%;
   }
 }
 
@@ -524,6 +524,7 @@ a {
 
 @media (max-width: 650px) {
   .pricing-block--primary {
+    width: 95%;
     min-height: 320px;
   }
 }
@@ -605,7 +606,7 @@ a {
   .pricing__list {
     text-align: left;
     gap: 1rem;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }
 
@@ -630,6 +631,15 @@ a {
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .contact__container {
+    width: 80%;
+    height: 60vh;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
 .contact-info {
   color: var(--color-black-1);
   flex-direction: column;
@@ -642,9 +652,23 @@ a {
   font-size: 3.1rem;
 }
 
+@media (max-width: 650px) {
+  .info__title {
+    margin-bottom: .5rem;
+    font-size: 2.8rem;
+  }
+}
+
 .info__description {
   font-family: var(--font-open-sans);
   margin-bottom: 2.75rem;
+}
+
+@media (max-width: 650px) {
+  .info__description {
+    justify-content: left;
+    margin-bottom: 2rem;
+  }
 }
 
 .contact-form {
@@ -685,9 +709,17 @@ label[for="email"] {
 .personal-data {
   text-align: left;
   font-family: var(--font-open-sans);
+  color: var(--color-gray-3);
   gap: 1rem;
   margin-top: 2rem;
+  font-size: .8rem;
   display: flex;
+}
+
+@media (max-width: 650px) {
+  .personal-data {
+    font-size: .9rem;
+  }
 }
 
 .data-checkbox, .personal-data {
@@ -715,11 +747,6 @@ label[for="email"] {
   background-repeat: no-repeat;
 }
 
-.personal-data {
-  color: var(--color-gray-3);
-  font-size: .8rem;
-}
-
 .footer {
   background-color: var(--color-white-2);
   justify-content: space-between;
@@ -742,10 +769,22 @@ label[for="email"] {
   font-size: 1.625rem;
 }
 
+@media (max-width: 650px) {
+  .logotype--footer {
+    padding: 0;
+  }
+}
+
 .footer-right {
   gap: 1.25rem;
   padding: 2.25rem 3rem;
   display: flex;
+}
+
+@media (max-width: 650px) {
+  .footer-right {
+    padding: 2rem;
+  }
 }
 
 .link {
@@ -804,6 +843,12 @@ label[for="email"] {
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .mail-links {
+    flex-direction: column;
+  }
+}
+
 .info__link {
   color: var(--color-gray-1);
   font-family: var(--font-open-sans);
@@ -815,12 +860,24 @@ label[for="email"] {
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .info__link {
+    justify-content: left;
+  }
+}
+
 a.form__link {
   text-align: center;
   align-self: flex-end;
   margin-top: 1.2rem;
   padding: 1rem 5rem;
   display: block;
+}
+
+@media (max-width: 650px) {
+  a.form__link {
+    padding: 1.2rem 6rem;
+  }
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */

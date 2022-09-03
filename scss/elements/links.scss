@@ -49,6 +49,9 @@
 .mail-links{
     display:  flex;
     gap: 1.25rem;
+    @media(max-width: 650px){
+        flex-direction: column;
+    }
 }
 
 .info__link{
@@ -60,6 +63,9 @@
     justify-content: center;
     gap: 0.6rem;
     font-weight: 600;
+    @media(max-width: 650px){
+        justify-content: left;
+    }
 }
 
 a.form__link{
@@ -68,4 +74,7 @@ a.form__link{
     align-self: flex-end;
     text-align: center;
     padding: 1rem 5rem;
+    @media(max-width: 650px){
+        padding: 1.2rem 6rem;
+    }
 }

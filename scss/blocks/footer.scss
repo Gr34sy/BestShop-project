@@ -18,11 +18,18 @@
 
 .logotype--footer{
     font-size: 1.625rem;
+
+    @media(max-width: 650px){
+        padding: 0;
+    }
 }
 
 .footer-right{
     display: flex;
     gap: 1.25rem;
     padding: 2.25rem 3rem;
+    @media(max-width: 650px){
+        padding: 2rem 2rem;
+    }
 }
 

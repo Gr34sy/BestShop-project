@@ -1,6 +1,13 @@
 .contact__container{
     display: flex;
     gap: 7.125rem;
+
+    @media(max-width: 650px){
+        flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        height: 60vh;
+    }
 }
 
 .contact-info{
@@ -13,12 +20,20 @@
     font-family: var(--font-raleway);
     font-size: 3.1rem;
     margin-bottom: 1.375rem;
+    @media(max-width: 650px){
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 
 .info__description{
     font-family: var(--font-open-sans);
     margin-bottom: 2.75rem;
+    @media(max-width: 650px){
+        justify-content: left;
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -63,6 +78,11 @@ label[for="email"]{
     gap: 1rem;
     text-align: left;
     font-family: var(--font-open-sans);
+    color: var(--color-gray-3);
+    font-size: 0.8rem;
+    @media(max-width: 650px){
+        font-size: 0.9rem;
+    }
 }
 
 .data-checkbox, .personal-data{
@@ -88,9 +108,4 @@ label[for="email"]{
     background-image: url('/images/Checkmark.svg');
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.personal-data{
-    color: var(--color-gray-3);
-    font-size: 0.8rem;
 }

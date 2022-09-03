@@ -23,11 +23,10 @@
     position: relative;
 
     @media (max-width: 650px){
-        width: 95%;
         margin-top: 0;
-        padding: 0 3rem;
+        padding: 0 1rem;
         flex-direction: row;
-        gap: 2rem;
+        gap: 2.5rem;
     }
 }
 
@@ -46,6 +45,7 @@
 
     @media (max-width: 650px){
         min-height: 300px;
+        width: 85%;
     }
 }
 
@@ -63,6 +63,7 @@
     box-shadow: 5px 10px 27px var(--color-blue-opacity-1);
 
     @media (max-width: 650px){
+        width: 95%;
         min-height: 320px;
     }
 }
@@ -134,7 +135,7 @@
 
     @media (max-width: 650px){
         gap: 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-align: left;
     }
 
