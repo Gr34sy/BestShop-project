@@ -9,8 +9,9 @@
 .stats-container{
     display: flex;
     justify-content: center;
-    gap: 11.5rem;
+    gap: 10rem;
     max-width: 800px;
+    padding: 0 2rem;
 
     @media (max-width: 650px){
         flex-direction: column;

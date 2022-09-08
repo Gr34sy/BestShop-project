@@ -30,4 +30,9 @@
 .section--contact{
     margin-top: 10rem;
     margin-bottom: 10rem;
+    @media (max-width: 650px){
+        margin-bottom: 1rem;
+
+        min-height: 80vh;
+    }
 }

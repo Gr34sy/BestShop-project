@@ -157,6 +157,13 @@ a {
   margin-bottom: 10rem;
 }
 
+@media (max-width: 650px) {
+  .section--contact {
+    min-height: 80vh;
+    margin-bottom: 1rem;
+  }
+}
+
 .welcome-text {
   color: var(--color-black-1);
   font-weight: 400;
@@ -207,7 +214,8 @@ a {
 .stats-container {
   max-width: 800px;
   justify-content: center;
-  gap: 11.5rem;
+  gap: 10rem;
+  padding: 0 2rem;
   display: flex;
 }
 
@@ -455,7 +463,7 @@ a {
   display: flex;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-container {
     margin-top: 20px;
   }
@@ -475,12 +483,13 @@ a {
   position: relative;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-block {
     flex-direction: row;
-    gap: 2.5rem;
+    justify-content: center;
+    gap: 2rem;
     margin-top: 0;
-    padding: 0 1rem;
+    padding: 0 .5rem;
   }
 }
 
@@ -489,7 +498,7 @@ a {
   display: flex;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-text {
     justify-content: center;
     align-items: center;
@@ -501,7 +510,7 @@ a {
   align-self: center;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-block--secondary {
     min-height: 300px;
     width: 85%;
@@ -522,7 +531,7 @@ a {
   box-shadow: 5px 10px 27px var(--color-blue-opacity-1);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-block--primary {
     width: 95%;
     min-height: 320px;
@@ -535,7 +544,7 @@ a {
   font-weight: 700;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing-block p {
     font-size: 1rem;
   }
@@ -572,7 +581,7 @@ a {
   display: block;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .price--limited:after {
     font-size: .8rem;
   }
@@ -585,7 +594,7 @@ a {
   display: block;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .price--nonlimited:after {
     height: .8rem;
   }
@@ -602,7 +611,7 @@ a {
   display: flex;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .pricing__list {
     text-align: left;
     gap: 1rem;
@@ -627,6 +636,8 @@ a {
 }
 
 .contact__container {
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 7.125rem;
   display: flex;
 }
@@ -634,8 +645,7 @@ a {
 @media (max-width: 650px) {
   .contact__container {
     width: 80%;
-    height: 60vh;
-    flex-direction: column;
+    flex-flow: column;
     gap: 2rem;
   }
 }
@@ -805,7 +815,7 @@ label[for="email"] {
 @media (max-width: 650px) {
   .link--shop {
     padding: 1.5rem 5rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -814,12 +824,6 @@ label[for="email"] {
   position: absolute;
   bottom: 0;
   transform: translate(0, 50%);
-}
-
-@media (max-width: 650px) {
-  .pricing-link {
-    transform: translate(50px, 50%);
-  }
 }
 
 .pricing-link--secondary {
