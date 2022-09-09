@@ -1,4 +1,4 @@
-4375
+4376
 83C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\package-lock.json133065992289392014 0
 131C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\keyboardevent-location.js133065992284560928 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\source-map-js\lib\quick-sort.js133065992277809410 0
@@ -42,7 +42,7 @@
 92C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\htmlnano\docs133065992280780080 1
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\lz4\lib\lz4.c133065992279629819 0
 128C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133065992278039460 0
-70C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist133071225529630850 1
+70C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist133071596642668961 1
 155C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob133065992281230180 1
 94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\json5\README.md133065992278669602 0
 119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\watcher\src\windows\win_utils.hh133065992279559802 0
@@ -66,7 +66,7 @@
 72C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\images133062714245535844 1
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\UG.js133065992286811435 0
 125C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-env-function.js133065992281970345 0
-76C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\index.html133071199422954790 0
+76C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\index.html133071596641798770 0
 98C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\react-error-overlay133065992278079468 1
 82C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\styles\style.css133066031507735252 0
 98C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\CHANGELOG.md133065992280570029 0
@@ -84,7 +84,7 @@
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\BW.js133065992281000127 0
 77C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks133066024676505326 1
 101C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\timsort\src\timsort.js133065992278079468 0
-79C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\elements133066007269001962 1
+79C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\elements133071584840539968 1
 106C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\node-addon-api\node_api.gyp133065992276429098 0
 88C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks\stats.scss133071105285313232 0
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\type-fest\source\stringified.d.ts133065992279779852 0
@@ -96,7 +96,7 @@
 133C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js133065992277169268 0
 135C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\tooltag133065992278889652 0
 106C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domutils\lib\index.d.ts.map133065992278509567 0
-80C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\main.scss133066024782215438 0
+80C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\main.scss133071590854482484 0
 134C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map133065992278629593 0
 125C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\childnode-remove.js133065992281210177 0
 89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\css-select133065992279399766 1
@@ -107,12 +107,17 @@
 87C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\misc\_reset.scss133066000579633998 0
 125C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\test\fixture\nested133065992280890102 1
 91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\misc\_variables.scss133071181865632533 0
+85C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@lezer133065992268329252 1
+118C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\package.json133065992280960117 0
+93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\LICENSE133065992276499113 0
+99C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\elements\hamburger-icon.scss133071597375615103 0
+113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\sass\types\logger\source_span.d.ts133065992280990123 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\css-select\lib\index.d.ts133065992279639820 0
 131C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js133065992281510243 0
 117C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\node_modules\node-addon-api\tools133065992279189722 1
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\cosmiconfig\dist\index.js133065992277949441 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\SZ.js133065992286571387 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks\benefits.scss133071226716312898 0
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks\benefits.scss133071584868532981 0
 93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\parcel\LICENSE133065992276289072 0
 128C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@swc\helpers\src\_possible_constructor_return.mjs133065992281860331 0
 89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks\footer.scss133066896747741019 0
@@ -130,9 +135,6 @@
 89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\scss\blocks\header.scss133071149111224612 0
 111C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-posthtml\lib133065992277089247 1
 113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\workers\test\workerfarm.js133065992280109926 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\open.js133065992281640272 0
-119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h133065992281480233 0
-89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domhandler133065992277809410 1
 138C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1133065992279319748 0
 90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\ansi-styles133065992277219276 1
 128C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-filter-function.js133065992282000352 0
@@ -184,7 +186,6 @@
 130C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133065992281060146 0
 86C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel133065992289091947 1
 90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@jridgewell133065992268439291 1
-85C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@lezer133065992268329252 1
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\svgo\plugins\prefixIds.js133065992279909892 0
 96C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@msgpackr-extract133065992289091947 1
 91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\yaml\pair.js133065992278889652 0
@@ -304,6 +305,9 @@
 108C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\utils\src\throttle.js133065992280780080 0
 87C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\error-ex133065992276939211 1
 93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domelementtype133065992278009453 1
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\open.js133065992281640272 0
+119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h133065992281480233 0
+89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domhandler133065992277809410 1
 120C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\svg-filters.js133065992286521373 0
 130C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133065992280119928 0
 101C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\compressor-raw133065992277099251 1
@@ -390,7 +394,7 @@
 117C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\utility-types\dist\mapped-types.js.map133065992278319523 0
 108C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\json-parse-even-better-errors133065992277199274 1
 108C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\fs\lib\browser.js.map133065992278669602 0
-97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\excluded-icon.efcd539d.svg133071189797373437 0
+97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\excluded-icon.efcd539d.svg133071595226323552 0
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domelementtype\lib\esm\index.d.ts133065992278189495 0
 105C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\msgpackr\dist\index.min.js133065992277909433 0
 96C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lines-and-columns133065992277009228 1
@@ -803,10 +807,10 @@
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\GM.js133065992283340652 0
 121C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js133065992276589134 0
 115C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\svgo\plugins\cleanupNumericValues.js133065992278609590 0
+112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\source-map-js\lib\mapping-list.js133065992277629368 0
 133C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-indeterminate-pseudo.js133065992282200397 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\htmlparser2\lib\Parser.js133065992277139258 0
 100C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\bin\terser.mjs133065992280650048 0
-112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\source-map-js\lib\mapping-list.js133065992277629368 0
 109C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\xxhash-wasm\umd\xxhash-wasm.js133065992277049237 0
 113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\xxhash-wasm\umd\xxhash-wasm.js.map133065992277959442 0
 109C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\xxhash-wasm\esm\xxhash-wasm.js133065992276659151 0
@@ -1029,13 +1033,13 @@
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\type-fest\source\utilities.d.ts133065992279879875 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\tslib\CopyrightNotice.txt133065992278299522 0
 96C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\core\test133065992282030360 1
-90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Person.880b4a19.svg133071189797373437 0
+90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Person.880b4a19.svg133071595226363563 0
 97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\tslib\package.json133065992277849417 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\core\test\test-utils.js133065992281920335 0
 94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\tslib\README.md133065992278009453 0
 97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\domelementtype\lib133065992278289515 1
 123C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\node_modules\node-addon-api\except.gypi133065992276989227 0
-90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\iPhone.65a507eb.png133071189797013359 0
+90C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\iPhone.65a507eb.png133071595226393565 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\NL.js133065992285231078 0
 101C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\css-tree\lib\convertor133065992280570029 1
 105C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\binary-extensions\index.js133065992276459106 0
@@ -1082,9 +1086,6 @@
 89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\lib133065992280480010 1
 107C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\sass\types\value\number.d.ts133065992280870097 0
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\workers\src\childState.js133065992278149484 0
-118C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\package.json133065992280960117 0
-93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\LICENSE133065992276499113 0
-113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\sass\types\logger\source_span.d.ts133065992280990123 0
 115C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@swc\helpers\lib\_sliced_to_array.js133065992280690056 0
 93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\terser\main.js133065992279949893 0
 100C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\codeframe\src133065992279329751 1
@@ -1389,7 +1390,6 @@
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\cosmiconfig\dist\types.d.ts.map133065992279509793 0
 119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\source-map-js\lib\source-map-consumer.js133065992278079468 0
 125C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\test\fixture\bar.js133065992277139258 0
-113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lines-and-columns\build\index.d.ts133065992277329299 0
 120C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\source-map-js\lib\source-map-generator.js133065992278229502 0
 121C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\posthtml\node_modules\posthtml-parser\dist133065992277939439 1
 119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\webworkers.js133065992287301548 0
@@ -1849,7 +1849,7 @@
 99C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\msgpackr\SECURITY.md133065992279009678 0
 97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\msgpackr\stream.js133065992278489566 0
 101C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\msgpackr\dist\index.js133065992277369310 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Macbook.a5eb91ef.png133071189797463459 0
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Macbook.a5eb91ef.png133071595226443579 0
 100C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\msgpackr\dist\test.js133065992278579583 0
 96C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\chokidar\index.js133065992277269292 0
 91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\entities\lib133065992279439775 1
@@ -2012,6 +2012,7 @@
 121C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\htmlnano\docs\versioned_docs\version-2.0.0133065992280710062 1
 127C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag133065992278949665 0
 106C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lines-and-columns\README.md133065992277079244 0
+113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lines-and-columns\build\index.d.ts133065992277329299 0
 111C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\lines-and-columns\build\index.js133065992276559126 0
 125C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\web-app-manifest.js133065992287061495 0
 89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\json5\dist133065992278829640 1
@@ -2200,7 +2201,7 @@
 134C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@jridgewell\trace-mapping\dist\types\binary-search.d.ts133065992278339528 0
 97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\htmlnano\docs\docs133065992280670052 1
 129C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-overflow-overlay.js133065992282400445 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Trumpet.d291d6ae.png133070404580797439 0
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Trumpet.d291d6ae.png133071595226153512 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\css-select\lib\general.js133065992277769402 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\htmlnano\docs\package-lock.json133065992280109926 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\utils\src\hash.js133065992279389764 0
@@ -2487,7 +2488,7 @@
 101C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\diagnostic\src133065992276859193 1
 157C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\index.js133065992279819863 0
 116C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\csso\lib\replace\AttributeSelector.js133065992278509567 0
-99C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\BestShop-project.3464ddca.js133071189797693513 0
+99C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\BestShop-project.3464ddca.js133071595226443579 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\csso\lib\replace\index.js133065992279739843 0
 121C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\core\test\fixtures\invalid-engines133065992282240404 1
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\csso\lib\replace\Value.js133065992280259962 0
@@ -2763,7 +2764,6 @@
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\dist\lib\statuses.js133065992286471358 0
 120C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-subgrid.js133065992282550473 0
 113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\dist\lib\supported.js133065992286501367 0
-130C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\background-attachment.js133065992280379988 0
 108C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\browsers.js133065992280910106 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\MQ.js133065992285041036 0
 110C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\regions\AE.js133065992278299522 0
@@ -2961,6 +2961,7 @@
 102C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\.bin\node-gyp-build.ps1133065992287621622 0
 114C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\audio.js133065992280089921 0
 120C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\audiotracks.js133065992280109926 0
+130C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\background-attachment.js133065992280379988 0
 128C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\background-img-opts.js133065992280430000 0
 132C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\background-position-x-y.js133065992280450006 0
 138C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133065992280470014 0
@@ -3021,7 +3022,7 @@
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\types\build-ts.js133065992276529122 0
 121C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-counters.js133065992281890327 0
 124C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-crisp-edges.js133065992281900330 0
-81C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.html133071199423804840 0
+81C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.html133071596642658958 0
 128C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133065992281920335 0
 129C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133065992281930338 0
 96C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\graph\src133065992278829640 1
@@ -3807,7 +3808,7 @@
 106C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-css\src133065992276839189 1
 126C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\core\lib\requests\WriteBundleRequest.js133065992282110382 0
 124C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-css\src\CSSTransformer.js133065992276949214 0
-93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Mail Icon.795518c4.svg133071189797373437 0
+93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Mail Icon.795518c4.svg133071595226363563 0
 108C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-babel\lib133065992278999675 1
 117C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-babel\package.json133065992279149716 0
 114C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\transformer-babel\README.md133065992279209724 0
@@ -3901,7 +3902,7 @@
 119C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\reporter-cli\src\bundleReport.js133065992276589134 0
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\reporter-cli\src\emoji.js133065992278319523 0
 113C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\reporter-cli\src\render.js133065992278489566 0
-92C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Facebook.b1acd7ee.svg133071189797273429 0
+92C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Facebook.b1acd7ee.svg133071595226323552 0
 118C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\reporter-cli\lib\CLIReporter.js133065992277929435 0
 112C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\plugin\src\PluginAPI.d.ts133065992277419320 0
 104C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\core\package.json133065992282140382 0
@@ -3942,7 +3943,7 @@
 136C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\test\fixtures\packages\a\index.js133065992278569583 0
 150C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js133065992278099476 0
 154C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133065992279949893 0
-94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Phone Icon.82019235.svg133071189797273429 0
+94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Phone Icon.82019235.svg133071595226323552 0
 153C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json133065992279919885 0
 115C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\src\index.js133065992277769402 0
 124C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\node_modules\@parcel\package-manager\src\installPackage.js133065992279179719 0
@@ -4363,14 +4364,14 @@
 80C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\images\Eye.svg132210686460000000 0
 84C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\images\Macbook.png132210686460000000 0
 84C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\images\Twitter.svg132210686460000000 0
-94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Background.b0093fb6.png133071189797463459 0
-103C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\BestShop-project.3464ddca.js.map133071189797723521 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Catalog.5ebe22b4.svg133071189797823540 0
-93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Checkmark.5be52c02.svg133071189797283419 0
-87C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Eye.10263c42.svg133071189797273429 0
-97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\included-icon.d802da1f.svg133071189797833543 0
+94C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Background.b0093fb6.png133071595226393565 0
+103C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\BestShop-project.3464ddca.js.map133071595226453583 0
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Catalog.5ebe22b4.svg133071595226233529 0
+93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Checkmark.5be52c02.svg133071595226233529 0
+87C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Eye.10263c42.svg133071595226323552 0
+97C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\included-icon.d802da1f.svg133071595226363563 0
 93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.0796372e.css.map133065992381325584 0
 93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.2687eea0.css.map133065992381305581 0
-89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.574c7455.css133071225529610850 0
-93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.574c7455.css.map133071225529620849 0
-91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Twitter.1a2aeb0b.svg133071189797373437 0
+89C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.574c7455.css133071595226233529 0
+93C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\index.574c7455.css.map133071595226283543 0
+91C:\Users\Greasy\Desktop\wszystko\strony\projekty\BestShop-project\dist\Twitter.1a2aeb0b.svg133071595226363563 0
