@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.574c7455.css">
+    <title>BestShop Calculator</title>
+</head>
+<body>
+    <main class="calc">
+        <h2 class="calc__title">
+            Calculate how much you'll pay
+        </h2>
+        
+        <div class="calc__columns">
+          <form class="calc__form">
+            <div class="calc__input">
+              <input type="number" class="form__input" id="products" min="1" step="1" placeholder="Products quantity">
+            </div>
+            <div class="calc__input">
+              <input type="number" class="form__input" id="orders" min="1" step="1" placeholder="Estimated orders in month">
+            </div>
+
+            <div class="calc__select" id="package" data-value="">
+              <div class="select__input">
+                Choose package
+              </div>
+        
+              <ul class="select__dropdown"> 
+                <li data-value="basic">Basic</li>
+                <li data-value="professional">Professional</li>
+                <li data-value="premium">Premium</li>
+              </ul>
+            </div>
+
+            <label class="calc__checkbox">
+              <input type="checkbox" id="accounting">
+              <span></span>
+              <p class="consent__text">Accounting</p>
+            </label>
+            <label class="calc__checkbox">
+              <input type="checkbox" id="terminal">
+              <span></span>
+              <p class="consent__text">Rental of a payment terminal</p>
+            </label>
+          </form>
+        
+          <!-- <div class="calc__summary">
+            <ul>
+              <li class="list__item" data-id="products">
+                <span class="item__type">Products</span>
+                <span class="item__calc">20 * $0.5</span>
+                <span class="item__price">$10</span>
+              </li>
+              <li class="list__item" data-id="orders">
+                <span class="item__type">Orders</span>
+                <span class="item__calc">20 * $0.5</span>
+                <span class="item__price">$10</span>
+              </li>
+              <li class="list__item" data-id="package">
+                <span class="item__type">Package</span>
+                <span class="item__calc">Premium</span>
+                <span class="item__price">$10</span>
+              </li>
+              <li class="list__item" data-id="accounting">
+                <span class="item__type">Accounting</span>
+                <span class="item__price">$10</span>
+              </li>
+              <li class="list__item" data-id="terminal">
+                <span class="item__type">Terminal</span>
+                <span class="item__price">$10</span>
+              </li>
+            </ul>
+            <div class="summary__total" id="total-price">
+              <span>Total</span>
+              <span class="total__price">$700</span>
+            </div>
+          </div>
+        </div> -->
+    </div></main>
+    
+<script src="/calculator.261cde2f.js"></script></body>
+</html>
