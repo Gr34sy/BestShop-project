@@ -939,7 +939,14 @@ label[for="email"] {
 }
 
 .calc__select {
+  cursor: pointer;
   position: relative;
+}
+
+.calc__select .select__input {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .calc__select .select__dropdown {
@@ -1053,6 +1060,10 @@ label[for="email"] {
 .calc__summary .list__item .item__price {
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+.icon__arrowUp {
+  display: none;
 }
 
 .link {

@@ -58,10 +58,13 @@
     }
   
     &__select {
+      cursor: pointer;
       position: relative;
   
       .select__input {
-       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
   
       .select__dropdown {
@@ -130,6 +133,9 @@
       
     }
   
+
+
+
     &__summary {
       width: 50%;
       margin-left: 20px;
@@ -185,3 +191,7 @@
     }
   }
   
+.icon__arrowUp{
+  display: none;
+}
+
