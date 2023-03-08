@@ -1,8 +1,9 @@
 //handling custom select
-const select = document.querySelector('#calc__select');
+const select = document.querySelector('#select__input');
 const dropdown = document.querySelector('#select__dropdown');
 const arrowDown = document.querySelector('#icon__arrowDown');
 const arrowUp = document.querySelector('#icon__arrowUp');
+
 
 function displayDropdown(){
     if(arrowDown.style.display === 'none'){
@@ -17,8 +18,13 @@ function displayDropdown(){
 }
 
 function handleDropdownLogic(e){
-    console.log(e.target)
+    const data = e.target.dataset.value;
+
+    select.querySelector('#select__text').innerHTML = data.charAt(0).toUpperCase() + data.slice(1);
+    select.setAttribute('data-value',data);
+
+    displayDropdown();
 }
 
 select.addEventListener('click', displayDropdown);
-select.addEventListener('click', handleDropdownLogic);
+dropdown.addEventListener('click', handleDropdownLogic);
