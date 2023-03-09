@@ -9,24 +9,73 @@ const summaryTotal = document.querySelectorAll("#total-price");
 const calcData = {
     products: {
         amount: 0,
-        price: this.products.amount * 0.5
+        priceUnit: 0.5,
+        price: 0,
+        description: null,
+        function: setAmount
     },
     orders: {
         amount: 0,
-        price: this.orders.amount * 0.25
+        priceUnit: 0.25,
+        price: 0,
+        description: null,
+        function: setAmount
     },
     package: {
-        price: 0
+        price: 0,
+        description: null,
+        function: setPackage
     },
     accounting: {
-        isChecked: false,
-        price: this.accounting.isChecked === true ? 35 : 0
+        priceUnit: 35,
+        price: 0,
+        function: setBoolean
     },
     terminal: {
-        isChecked: false,
-        price: this.terminal.isChecked === true ? 5 : 0
-    }
+        priceUnit: 5,
+        price: 0,
+        function: setBoolean
+    },
+    total: 0
 };
+//calcData functions
+function setTotal() {
+    calcData.total = calcData.products.price + calcData.orders.price + calcData.package.price + calcData.accounting.price + calcData.terminal.price;
+}
+function setAmount(e) {
+    this.amount = Number(e.target.value);
+    this.price = this.amount * this.priceUnit;
+    this.description = `${this.amount} * $${this.priceUnit}`;
+    setTotal();
+    console.log(calcData);
+}
+function setPackage(e) {
+    const data = e.target.dataset.value;
+    select.querySelector("#select__text").innerHTML = data.charAt(0).toUpperCase() + data.slice(1);
+    select.setAttribute("data-value", data);
+    switch(data){
+        case "basic":
+            calcData.package.price = 0;
+            calcData.package.description = "Basic";
+            break;
+        case "professional":
+            calcData.package.price = 25;
+            calcData.package.description = "Professional";
+            break;
+        case "premium":
+            calcData.package.price = 60;
+            calcData.package.description = "Premium";
+            break;
+    }
+    displayDropdown();
+    setTotal();
+    console.log(calcData);
+}
+function setBoolean(e) {
+    this.price = e.target.checked ? this.priceUnit : 0;
+    setTotal();
+    console.log(calcData);
+}
 //dropdown displaying
 function displayDropdown() {
     if (arrowDown.style.display === "none") {
@@ -40,41 +89,12 @@ function displayDropdown() {
     }
 }
 select.addEventListener("click", displayDropdown);
-//summary displaying
-function displaySummary(name) {
-    const line = document.querySelector(`li[data-id="${name}"]`);
-    const total = document.querySelector("#total-price");
-    if (calcData[name]) line.style.display = "block";
-    else line.style.display = "none";
-    switch(name){
-        case "accounting":
-            line.querySelector("span.item__price").innerHTML = "$35";
-            break;
-        case "terminal":
-            line.querySelector("span.item__price").innerHTML = "$5";
-            break;
-    }
-}
-//calculator functionality
+//handling input change
 function handleInputChange(e) {
-    if (e.target.type != "checkbox") calcData[e.target.name.amount] = e.target.value ? e.target.value : false;
-    else calcData[e.target.name.isChecked] = e.target.checked ? true : false;
-    console.log(calcData);
-    displaySummary(e.target.name);
+    calcData[e.target.name].function(e);
 }
-function setSelectValue(e) {
-    const data = e.target.dataset.value;
-    select.querySelector("#select__text").innerHTML = data.charAt(0).toUpperCase() + data.slice(1);
-    select.setAttribute("data-value", data);
-    calcData.package.type = select.dataset.value;
-    calcData.package.price = function() {
-        data;
-    };
-    console.log(calcData);
-    displayDropdown();
-    displaySummary("package");
-}
+// adding listeners
 inputs.forEach((input)=>input.addEventListener("change", handleInputChange));
-dropdown.addEventListener("click", setSelectValue);
+dropdown.addEventListener("click", setPackage);
 
 //# sourceMappingURL=calculator.62cd4a25.js.map

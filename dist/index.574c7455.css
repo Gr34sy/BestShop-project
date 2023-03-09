@@ -1062,10 +1062,6 @@ label[for="email"] {
   font-weight: 700;
 }
 
-.icon__arrowUp {
-  display: none;
-}
-
 .link {
   font-family: var(--font-open-sans);
   color: var(--color-white-1);
