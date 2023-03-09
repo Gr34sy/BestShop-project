@@ -78,15 +78,9 @@ function setBoolean(e) {
 }
 //dropdown displaying
 function displayDropdown() {
-    if (arrowDown.style.display === "none") {
-        arrowDown.style.display = "block";
-        arrowUp.style.display = "none";
-        dropdown.style.display = "none";
-    } else {
-        arrowDown.style.display = "none";
-        arrowUp.style.display = "block";
-        dropdown.style.display = "block";
-    }
+    arrowDown.classList.toggle("not-visible");
+    arrowUp.classList.toggle("not-visible");
+    dropdown.classList.toggle("not-visible");
 }
 select.addEventListener("click", displayDropdown);
 //handling input change
