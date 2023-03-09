@@ -1020,6 +1020,7 @@ label[for="email"] {
   border-radius: 6px;
   justify-content: space-between;
   align-items: center;
+  font-family: Open Sans, sans-serif;
   font-size: .875rem;
   box-shadow: 0 3px 6px #00000029;
 }
@@ -1041,7 +1042,6 @@ label[for="email"] {
   background-color: #55dfb4;
   margin-bottom: 8px;
   padding: 6px 20px;
-  font-family: Open Sans, sans-serif;
 }
 
 .calc__summary .list__item span {

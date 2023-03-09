@@ -145,6 +145,7 @@
         align-items: center;
         color: $color-white;
         font-size: 0.875rem;
+        font-family: "Open Sans", sans-serif;
       }
   
       .summary__total {
@@ -164,7 +165,6 @@
         padding: 6px 20px;
         background-color: $color-green;
         margin-bottom: 8px;
-        font-family: "Open Sans", sans-serif;
         
         span{
           flex-basis: 33%;

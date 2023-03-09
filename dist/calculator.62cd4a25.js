@@ -46,12 +46,12 @@ function setAmount(e) {
     this.price = this.amount * this.priceUnit;
     this.description = `${this.amount} * $${this.priceUnit}`;
     setTotal();
-    console.log(calcData);
+// console.log(calcData);
 }
 function setBoolean(e) {
     this.price = e.target.checked ? this.priceUnit : 0;
     setTotal();
-    console.log(calcData);
+// console.log(calcData);
 }
 function setPackage(e) {
     const data = e.target.dataset.value;
@@ -74,7 +74,7 @@ function setPackage(e) {
     setTotal();
     displayDropdown();
     displaySummary("package");
-    console.log(calcData);
+// console.log(calcData);
 }
 //handling input change
 function handleInputChange(e) {
@@ -91,12 +91,15 @@ function displayDropdown() {
 function displaySummary(name) {
     const line = document.querySelector(`li[data-id="${name}"]`);
     const total = document.querySelector(`.summary__total`);
-    if (calcData.total > 0) {
+    if (calcData.total > 0 || calcData.package.description === "Basic") {
         total.style.display = "flex";
         total.querySelector(".total__price").innerHTML = `$${calcData.total}`;
     } else total.style.display = "none";
-    if (calcData[name].price) line.style.display = "flex";
-    else line.style.display = "none";
+    if (calcData[name].price || calcData[name].description === "Basic") {
+        line.style.display = "flex";
+        line.querySelector("span.item__calc").innerHTML = calcData[name].description || "";
+        line.querySelector("span.item__price").innerHTML = `$${calcData[name].price}`;
+    } else line.style.display = "none";
 }
 // adding listeners
 inputs.forEach((input)=>input.addEventListener("change", handleInputChange));
