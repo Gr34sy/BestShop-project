@@ -11,83 +11,104 @@
     <title>BestShop Calculator</title>
 </head>
 <body>
-    <main class="calc">
-        <h2 class="calc__title">
-            Calculate how much you'll pay
-        </h2>
-        
-        <div class="calc__columns">
-          <form class="calc__form">
-            <div class="calc__input">
-              <input type="number" class="form__input" id="products" name="products" min="1" step="1" placeholder="Products quantity">
-            </div>
-            <div class="calc__input">
-              <input type="number" class="form__input" id="orders" name="orders" min="1" step="1" placeholder="Estimated orders in month">
-            </div>
-
-            <div class="calc__select">
-              <div class="select__input" id="select__input" data-value="">
-                <p id="select__text">
-                  Choose package
-                </p>
-                <img src="/Arrow%20Down.3f64e6b1.svg" alt="arrow down icon" class="not-visible" id="icon__arrowDown">
-                <img src="/Arrow%20Up.8ee5464c.svg" alt="arrow up icon" class="" id="icon__arrowUp">
-              </div>
-        
-              <ul class="select__dropdown not-visible" id="select__dropdown"> 
-                <li data-value="basic">Basic</li>
-                <li data-value="professional">Professional</li>
-                <li data-value="premium">Premium</li>
-              </ul>
-            </div>
-
-            <label class="calc__checkbox">
-              <input type="checkbox" id="accounting" name="accounting">
-              <span></span>
-              <p class="consent__text">Accounting</p>
+  <header class="header">
+    <div class="header-container">
+        <span class="logotype logotype--header">
+            BestShop
+        </span>
+        <nav class="header-navbar">
+            <label for="burger-menu" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </label>
-            <label class="calc__checkbox">
-              <input type="checkbox" id="terminal" name="terminal">
-              <span></span>
-              <p class="consent__text">Rental of a payment terminal</p>
-            </label>
-          </form>
-        
-          <div class="calc__summary" id="calc__summary">
-            <ul>
-              <li class="list__item not-visible" data-id="products">
-                <span class="item__type">Products</span>
-                <span class="item__calc">20 * $0.5</span>
-                <span class="item__price">$10</span>
-              </li>
-              <li class="list__item not-visible" data-id="orders">
-                <span class="item__type">Orders</span>
-                <span class="item__calc">20 * $0.5</span>
-                <span class="item__price">$10</span>
-              </li>
-              <li class="list__item not-visible" data-id="package">
-                <span class="item__type">Package</span>
-                <span class="item__calc">Premium</span>
-                <span class="item__price">$10</span>
-              </li>
-              <li class="list__item not-visible" data-id="accounting">
-                <span class="item__type">Accounting</span>
-                <span class="item__calc"></span>
-                <span class="item__price">$10</span>
-              </li>
-              <li class="list__item not-visible" data-id="terminal">
-                <span class="item__type">Terminal</span>
-                <span class="item__calc"></span>
-                <span class="item__price">$10</span>
-              </li>
+            <ul class="header-navbar__list">
+              <li class="nav__element"><a href="/index.html" class="nav__link">Home Page</a></li>
+              <li class="nav__element"><a href="/index.html#why-us" class="nav__link">Why us</a></li>
+              <li class="nav__element"><a href="/index.html#benefits" class="nav__link">Benefits</a></li>
+              <li class="nav__element"><a href="/index.html#prices" class="nav__link">Prices</a></li>
+              <li class="nav__element"><a href="/index.html#contact" class="nav__link">Contact</a></li>
             </ul>
-            <div class="summary__total not-visible" id="total-price">
-              <span>Total</span>
-              <span class="total__price">$700</span>
-            </div>
-          </div>
+        </nav>
+    </div>
+  </header>
+  <main class="calc">
+    <h2 class="calc__title">
+      Calculate how much you'll pay
+    </h2>
+        
+    <div class="calc__columns">
+      <form class="calc__form">
+        <div class="calc__input">
+          <input type="number" class="form__input" id="products" name="products" min="1" step="1" placeholder="Products quantity">
         </div>
-    </main>
-    <script async="" defer="" src="/calculator.62cd4a25.js"></script>
+        <div class="calc__input">
+          <input type="number" class="form__input" id="orders" name="orders" min="1" step="1" placeholder="Estimated orders in month">
+        </div>
+
+        <div class="calc__select">
+          <div class="select__input" id="select__input" data-value="">
+            <p id="select__text">
+              Choose package
+            </p>
+            <img src="/Arrow%20Down.3f64e6b1.svg" alt="arrow down icon" class="not-visible" id="icon__arrowDown">
+            <img src="/Arrow%20Up.8ee5464c.svg" alt="arrow up icon" class="" id="icon__arrowUp">
+          </div>
+        
+          <ul class="select__dropdown not-visible" id="select__dropdown"> 
+            <li data-value="basic">Basic</li>
+            <li data-value="professional">Professional</li>
+            <li data-value="premium">Premium</li>
+          </ul>
+        </div>
+
+        <label class="calc__checkbox">
+          <input type="checkbox" id="accounting" name="accounting">
+          <span></span>
+          <p class="consent__text">Accounting</p>
+        </label>
+        <label class="calc__checkbox">
+          <input type="checkbox" id="terminal" name="terminal">
+          <span></span>
+          <p class="consent__text">Rental of a payment terminal</p>
+        </label>
+      </form> 
+        
+      <div class="calc__summary" id="calc__summary">
+        <ul>
+          <li class="list__item not-visible" data-id="products">
+            <span class="item__type">Products</span>
+            <span class="item__calc">20 * $0.5</span>
+            <span class="item__price">$10</span>
+          </li>
+          <li class="list__item not-visible" data-id="orders">
+            <span class="item__type">Orders</span>
+            <span class="item__calc">20 * $0.5</span>
+            <span class="item__price">$10</span>
+          </li>
+          <li class="list__item not-visible" data-id="package">
+            <span class="item__type">Package</span>
+            <span class="item__calc">Premium</span>
+            <span class="item__price">$10</span>
+          </li>
+          <li class="list__item not-visible" data-id="accounting">
+            <span class="item__type">Accounting</span>
+            <span class="item__calc"></span>
+            <span class="item__price">$10</span>
+          </li>
+          <li class="list__item not-visible" data-id="terminal">
+            <span class="item__type">Terminal</span>
+            <span class="item__calc"></span>
+            <span class="item__price">$10</span>
+          </li>
+          </ul>
+        <div class="summary__total not-visible" id="total-price">
+          <span>Total</span>
+          <span class="total__price">$700</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script async="" defer="" src="/calculator.62cd4a25.js"></script>
 <script src="/calculator.261cde2f.js"></script></body>
 </html>
