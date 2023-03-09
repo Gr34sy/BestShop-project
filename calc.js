@@ -27,7 +27,6 @@ const calcData = {
     package:{
         price: 0,
         description: null,
-        function: setPackage,
     },
     accounting:{
         priceUnit: 35,
@@ -57,6 +56,13 @@ function setAmount(e){
     console.log(calcData);
 }
 
+function setBoolean(e){
+    this.price = e.target.checked ? this.priceUnit : 0;
+
+    setTotal();
+    console.log(calcData);
+}
+
 function setPackage(e){
     const data = e.target.dataset.value;
     select.querySelector('#select__text').innerHTML = data.charAt(0).toUpperCase() + data.slice(1);
@@ -77,17 +83,19 @@ function setPackage(e){
             break;
     }
 
+    setTotal();
     displayDropdown();
-    setTotal();
+    displaySummary('package');
     console.log(calcData);
 }
 
-function setBoolean(e){
-    this.price = e.target.checked ? this.priceUnit : 0;
-
-    setTotal();
-    console.log(calcData);
+//handling input change
+function handleInputChange(e){
+    calcData[e.target.name].function(e);
+    displaySummary(e.target.name);
 }
+
+
 
 //dropdown displaying
 function displayDropdown(){
@@ -96,14 +104,29 @@ function displayDropdown(){
     dropdown.classList.toggle('not-visible');  
 }
 
-select.addEventListener('click', displayDropdown);
+//summary displaying
+function displaySummary(name){
+    const line = document.querySelector(`li[data-id="${name}"]`);
+    const total = document.querySelector(`.summary__total`);
+    
+    if(calcData.total > 0){
+        total.style.display = 'flex';
+        total.querySelector('.total__price').innerHTML = `$${calcData.total}`;
+    }else{
+        total.style.display = 'none';
+    }
 
-//handling input change
-function handleInputChange(e){
-    calcData[e.target.name].function(e);
+
+    if(calcData[name].price){
+        line.style.display = 'flex';
+    }else{
+        line.style.display = 'none';
+    }
 }
+
 
 
 // adding listeners
 inputs.forEach((input) => input.addEventListener('change', handleInputChange));
+select.addEventListener('click', displayDropdown);
 dropdown.addEventListener('click', setPackage);
