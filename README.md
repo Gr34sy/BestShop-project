@@ -1,5 +1,5 @@
 # BestShop created with HTML, SASS and JS
-### The app is a pretty straight-forward landing page for e-commerce with a simple calculator written in JS.
+### The app is a pretty straight-forward landing page for e-commerce with a simple calculator written in JS
 
 #### Technologies used in the app:
 <img align="left" alt="React" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />
