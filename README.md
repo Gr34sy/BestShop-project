@@ -11,7 +11,7 @@
 <br/> <br/> <br/> 
 
 #### App Functionalities:
-<p>-> Landing Page/p>
+<p>-> Landing Page </p>
 <p>-> Calculating the cost of a services for specific business </p>
 
 <br/> <br/> <br/> 
